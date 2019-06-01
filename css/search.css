@@ -1,0 +1,24 @@
+body, html {
+    background: whitesmoke;
+}
+
+#search, .logo {
+    width: 100%;
+}
+
+#uptip, #downtip {
+    border: 1px solid #888888;
+    box-shadow: 0 0 1px #888888;
+    background: white;
+}
+
+#uptip > div, #downtip > div {
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+#uptip > div:hover, #downtip > div:hover, .xz {
+    background: #ebebeb;
+}
